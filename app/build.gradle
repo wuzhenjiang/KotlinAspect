@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'android-aspectjx'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -30,7 +31,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-
+//https://blog.csdn.net/lalallallalla/article/details/111171422
     aspectjx {
         exclude 'versions.9'
     }
